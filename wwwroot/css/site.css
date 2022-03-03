@@ -37,6 +37,25 @@ html {
     max-width: 1440px;
 }
 
+.card {
+    box-shadow: 0 3px 6px #0000000d;
+    height: 100%;
+    justify-content: space-between;
+}
+
+    .card:hover {
+        text-decoration: none;
+    }
+
+.card-img-top {
+    height: 100%;
+    object-fit: cover;
+}
+
+.card .card-body {
+    color: #000;
+    flex: unset;
+}
 
 @media (min-width: 768px) {
     html {

@@ -15,6 +15,7 @@
       <None Remove="Data\" />
       <None Remove="Pomelo.EntityFrameworkCore.MySql" />
       <None Remove="Views\Movie\" />
+      <None Remove="EntityFramework" />
     </ItemGroup>
     <ItemGroup>
       <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.2" />
@@ -25,6 +26,7 @@
       </PackageReference>
       <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.2" />
       <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="6.0.1" />
+      <PackageReference Include="EntityFramework" Version="6.4.4" />
     </ItemGroup>
     <ItemGroup>
       <Folder Include="Data\" />

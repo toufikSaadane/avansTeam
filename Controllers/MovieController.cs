@@ -4,8 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using avansTeam.Data;
 using Microsoft.AspNetCore.Mvc;
+using avansTeam.Models;
 using Microsoft.EntityFrameworkCore;
-
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace avansTeam.Controllers
@@ -22,7 +22,16 @@ namespace avansTeam.Controllers
         // GET: /<controller>/
         public async Task<IActionResult> Index()
         {
-            var movies = await _context.Movies.ToListAsync();
+            var movies = await (from movie in _context.Movies
+                                where movie.Performances.Any(p => p.startTime >= DateTime.Now)
+                                select movie).ToListAsync();
+
+            foreach (var movie in movies)
+            {
+
+                Console.WriteLine(movie.Name);
+            }
+
 
             return View(movies);
         }

@@ -1,24 +1,27 @@
 ﻿<Properties StartupConfiguration="{9DDF2CAD-092E-4684-B15B-88E5F03B40DE}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="wwwroot/css/site.css">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/MovieController.cs">
     <Files>
-      <File FileName="Models/Movie.cs" Line="1" Column="1" />
-      <File FileName="Models/Hall.cs" />
-      <File FileName="Data/CinemaContext.cs" Line="1" Column="1" />
-      <File FileName="appsettings.json" />
-      <File FileName="Startup.cs" Line="73" Column="55" />
-      <File FileName="Migrations/CinemaContextModelSnapshot.cs" Line="104" Column="33" />
+      <File FileName="Models/Movie.cs" Line="7" Column="23" />
+      <File FileName="Models/Hall.cs" Line="1" Column="1" />
+      <File FileName="Data/CinemaContext.cs" Line="11" Column="21" />
+      <File FileName="appsettings.json" Line="1" Column="1" />
+      <File FileName="Startup.cs" Line="29" Column="10" />
       <File FileName="Program.cs" Line="1" Column="1" />
-      <File FileName="Controllers/MovieController.cs" Line="27" Column="33" />
-      <File FileName="Views/Movie/Index.cshtml" Line="7" Column="17" />
-      <File FileName="Views/Shared/_Layout.cshtml" Line="34" Column="1" />
-      <File FileName="wwwroot/css/site.css" Line="1" Column="1" />
+      <File FileName="Controllers/MovieController.cs" Line="24" Column="60" />
+      <File FileName="Views/Movie/Index.cshtml" Line="19" Column="27" />
+      <File FileName="Views/Shared/_Layout.cshtml" Line="14" Column="94" />
+      <File FileName="wwwroot/css/site.css" Line="52" Column="23" />
+      <File FileName="Migrations/20220303141826_IntialCreate.cs" Line="1" Column="1" />
+      <File FileName="Models/Performance.cs" Line="9" Column="25" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="avansTeam" expanded="True">
             <Node name="avansTeam" expanded="True">
-              <Node name="Controllers" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="MovieController.cs" selected="True" />
+              </Node>
               <Node name="Data" expanded="True" />
               <Node name="Migrations" expanded="True" />
               <Node name="Models" expanded="True" />
@@ -27,9 +30,7 @@
                 <Node name="Shared" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True">
-                <Node name="css" expanded="True">
-                  <Node name="site.css" selected="True" />
-                </Node>
+                <Node name="css" expanded="True" />
               </Node>
             </Node>
           </Node>

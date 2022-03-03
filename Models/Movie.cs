@@ -12,6 +12,6 @@ namespace avansTeam.Models
         public int Duration { get; set; }
         public string Image { get; set; }
 
-        public ICollection<Performance> Perfomances { get; set; } = new List<Performance>();
+        public ICollection<Performance> Performances { get; set; } = new List<Performance>();
     }
 }

@@ -260,4 +260,13 @@
 /Users/milantran/Desktop/avansTeam/obj/Debug/net6.0/avansTeam.genruntimeconfig.cache
 /Users/milantran/Desktop/avansTeam/bin/Debug/net6.0/MySqlConnector.dll
 /Users/milantran/Desktop/avansTeam/bin/Debug/net6.0/Pomelo.EntityFrameworkCore.MySql.dll
+/Users/milantran/Desktop/avansTeam/bin/Debug/net6.0/EntityFramework.SqlServer.dll
+/Users/milantran/Desktop/avansTeam/bin/Debug/net6.0/EntityFramework.dll
+/Users/milantran/Desktop/avansTeam/bin/Debug/net6.0/System.CodeDom.dll
+/Users/milantran/Desktop/avansTeam/bin/Debug/net6.0/System.Data.SqlClient.dll
+/Users/milantran/Desktop/avansTeam/bin/Debug/net6.0/runtimes/win-arm64/native/sni.dll
+/Users/milantran/Desktop/avansTeam/bin/Debug/net6.0/runtimes/win-x64/native/sni.dll
+/Users/milantran/Desktop/avansTeam/bin/Debug/net6.0/runtimes/win-x86/native/sni.dll
+/Users/milantran/Desktop/avansTeam/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/Users/milantran/Desktop/avansTeam/bin/Debug/net6.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
 /Users/milantran/Desktop/avansTeam/bin/Debug/net6.0/avansTeam
