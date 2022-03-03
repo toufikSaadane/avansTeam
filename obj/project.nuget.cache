@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "CVAIsgWOoBTNXb6usscYWtSnvAwlA0G5tM+qOeRKH5DMg+s/akEfqxwmgpwlgQkSa+zXL9+C3VKV6igJ6yQBjA==",
+  "dgSpecHash": "1qj24yoCwyL10hu2iaswk762EXTGwAY2fOdUeTe6zue7wrC/OaxJW8xAZxQwF3gxZ1yIctM0OyAd3t+/7ARG3A==",
   "success": true,
   "projectFilePath": "/Users/milantran/Desktop/avansTeam/avansTeam.csproj",
   "expectedPackageFiles": [
@@ -69,6 +69,7 @@
     "/Users/milantran/.nuget/packages/microsoft.win32.primitives/4.3.0/microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "/Users/milantran/.nuget/packages/microsoft.win32.registry/4.7.0/microsoft.win32.registry.4.7.0.nupkg.sha512",
     "/Users/milantran/.nuget/packages/microsoft.win32.systemevents/4.7.0/microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "/Users/milantran/.nuget/packages/mysqlconnector/2.1.2/mysqlconnector.2.1.2.nupkg.sha512",
     "/Users/milantran/.nuget/packages/netstandard.library/1.6.1/netstandard.library.1.6.1.nupkg.sha512",
     "/Users/milantran/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
     "/Users/milantran/.nuget/packages/nuget.common/5.11.0/nuget.common.5.11.0.nupkg.sha512",
@@ -80,6 +81,7 @@
     "/Users/milantran/.nuget/packages/nuget.projectmodel/5.11.0/nuget.projectmodel.5.11.0.nupkg.sha512",
     "/Users/milantran/.nuget/packages/nuget.protocol/5.11.0/nuget.protocol.5.11.0.nupkg.sha512",
     "/Users/milantran/.nuget/packages/nuget.versioning/5.11.0/nuget.versioning.5.11.0.nupkg.sha512",
+    "/Users/milantran/.nuget/packages/pomelo.entityframeworkcore.mysql/6.0.1/pomelo.entityframeworkcore.mysql.6.0.1.nupkg.sha512",
     "/Users/milantran/.nuget/packages/runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "/Users/milantran/.nuget/packages/runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "/Users/milantran/.nuget/packages/runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",

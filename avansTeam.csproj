@@ -13,6 +13,8 @@
       <None Remove="Microsoft.EntityFrameworkCore.Tools" />
       <None Remove="Microsoft.VisualStudio.Web.CodeGeneration.Design" />
       <None Remove="Data\" />
+      <None Remove="Pomelo.EntityFrameworkCore.MySql" />
+      <None Remove="Views\Movie\" />
     </ItemGroup>
     <ItemGroup>
       <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.2" />
@@ -22,8 +24,10 @@
         <PrivateAssets>all</PrivateAssets>
       </PackageReference>
       <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.2" />
+      <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="6.0.1" />
     </ItemGroup>
     <ItemGroup>
       <Folder Include="Data\" />
+      <Folder Include="Views\Movie\" />
     </ItemGroup>
 </Project>
