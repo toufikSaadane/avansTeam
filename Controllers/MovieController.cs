@@ -23,15 +23,12 @@ namespace avansTeam.Controllers
         public async Task<IActionResult> Index()
         {
             var movies = await (from movie in _context.Movies
-                                where movie.Performances.Any(p => p.startTime >= DateTime.Now)
-                                select movie).ToListAsync();
-
-            foreach (var movie in movies)
-            {
-
-                Console.WriteLine(movie.Name);
-            }
-
+                                where movie.Performances.Any(p => p.startTime >= DateTime.Now && p.startTime <= DateTime.Today.AddDays(1))
+                                select movie).Include(p =>
+                                    p.Performances.Where(a =>
+                                            a.startTime >= DateTime.Now && a.startTime <= DateTime.Today.AddDays(1)).OrderBy(o => o.startTime))
+                                                .ThenInclude(performance => performance.Hall)
+                                                .ToListAsync();
 
             return View(movies);
         }
