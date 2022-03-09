@@ -1,83 +1,34 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using avansTeam.Data;
 using Microsoft.AspNetCore.Mvc;
-
+using avansTeam.Models;
+using Microsoft.EntityFrameworkCore;
 namespace avansTeam.Controllers
 {
     public class PdfController : Controller
     {
-        // GET: PdfController
-        public ActionResult Index()
+        // GET: /<PdfController>/<id>/
+        private readonly CinemaContext _context;
+
+        public PdfController(CinemaContext context)
         {
-            return View();
+            _context = context;
         }
 
-        // GET: PdfController/Details/5
-        public ActionResult Details(int id)
+        // GET: /<controller>/
+        public async Task<IActionResult> Index(int id)
         {
-            return View();
-        }
+            var performances = await (from performance in _context.Performances
+                                where performance.Id == id select performance).Include(p => p)
+                                                .ThenInclude(performance => performance.Hall)
+                                                .ToListAsync();
 
-        // GET: PdfController/Create/ticket
-        public ActionResult Create()
-        {
-            return View();
-        }
-
-        // POST: PdfController/Create
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
-
-        // GET: PdfController/Edit/5
-        public ActionResult Edit(int id)
-        {
-            return View();
-        }
-
-        // POST: PdfController/Edit/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
-
-        // GET: PdfController/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
-
-        // POST: PdfController/Delete/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
+            return View(performances);
         }
     }
+
 }
+

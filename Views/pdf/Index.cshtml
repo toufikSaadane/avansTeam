@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewData["Title"] = "Download Pdf";
+}
+
+<div id="movies">
+    <div class="row">
+        @foreach (var performance in Model)
+        {
+            <div class="col-12 col-md-4 col-lg-3">
+                <a asp-area="" asp-controller="Home" asp-action="Index" class="card">
+                    <div class="card-body">
+                        <p class="card-text">@performance.Movie.Name</p>
+                        <div class="performances">
+
+                                <span class="performance">@performance.startTime.ToString("HH:mm"): @performance.Hall.Name</span>
+
+                        </div>
+                    </div>
+                </a>
+            </div>
+        }
+    </div>
+
+</div>
