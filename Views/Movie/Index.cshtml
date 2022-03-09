@@ -5,17 +5,19 @@
 
 <div id="movies">
     <div class="row">
-        @foreach (var item in Model)
+        @foreach (var movie in Model)
         {
             <div class="col-12 col-md-4 col-lg-3">
                 <a asp-area="" asp-controller="Home" asp-action="Index" class="card">
-                    <img class="card-img-top" src="@item.Image" alt="@item.Name" />
+                    <img class="card-img-top" src="@movie.Image" alt="@movie.Name" />
                     <div class="card-body">
-                        <p class="card-text">@item.Name</p>
-                        @*@foreach (var performance in item.Performances)
+                        <p class="card-text">@movie.Name</p>
+                        <div class="performances">
+                            @foreach (var performance in movie.Performances)
                             {
-
-                            }*@
+                                <span class="performance">@performance.startTime.ToString("HH:mm"): @performance.Hall.Name</span>
+                            }
+                        </div>
                     </div>
                 </a>
             </div>
