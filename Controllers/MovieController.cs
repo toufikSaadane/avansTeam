@@ -32,5 +32,15 @@ namespace avansTeam.Controllers
 
             return View(movies);
         }
+
+        // GET: /<controller>/
+        public async Task<IActionResult> Show(int? id)
+        {
+            if (id == null) { return NotFound(); }
+            var movie = await _context.Movies.FindAsync(id.Value);
+            if (movie == null) { return NotFound(); }
+            return View(movie);
+        }
+
     }
 }

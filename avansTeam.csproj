@@ -31,7 +31,6 @@
     </ItemGroup>
     <ItemGroup>
       <Folder Include="Data\" />
-      <Folder Include="Views\Movie\" />
       <Folder Include="Views\Checkout\" />
     </ItemGroup>
 </Project>

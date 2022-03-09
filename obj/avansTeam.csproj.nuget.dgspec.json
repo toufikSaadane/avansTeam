@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/lucavanleeuwen/Desktop/avansTeam/avansTeam.csproj": {}
+    "C:\\Users\\Anass\\Desktop\\Avans - Bioscoop\\avansTeam.csproj": {}
   },
   "projects": {
-    "/Users/lucavanleeuwen/Desktop/avansTeam/avansTeam.csproj": {
+    "C:\\Users\\Anass\\Desktop\\Avans - Bioscoop\\avansTeam.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/lucavanleeuwen/Desktop/avansTeam/avansTeam.csproj",
+        "projectUniqueName": "C:\\Users\\Anass\\Desktop\\Avans - Bioscoop\\avansTeam.csproj",
         "projectName": "avansTeam",
-        "projectPath": "/Users/lucavanleeuwen/Desktop/avansTeam/avansTeam.csproj",
-        "packagesPath": "/Users/lucavanleeuwen/.nuget/packages/",
-        "outputPath": "/Users/lucavanleeuwen/Desktop/avansTeam/obj/",
+        "projectPath": "C:\\Users\\Anass\\Desktop\\Avans - Bioscoop\\avansTeam.csproj",
+        "packagesPath": "C:\\Users\\Anass\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Anass\\Desktop\\Avans - Bioscoop\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/lucavanleeuwen/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Anass\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -83,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
