@@ -16331,6 +16331,11 @@
       "FilePath": "d:\\GitHub\\avansTeam\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\GitHub\\avansTeam\\Views\\pdf\\Index.cshtml",
+      "TargetPath": "Views\\pdf\\Index.cshtml",
+      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.2"
