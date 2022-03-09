@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/milantran/Desktop/avansTeam/avansTeam.csproj": {}
+    "/Users/lucavanleeuwen/Desktop/avansTeam/avansTeam.csproj": {}
   },
   "projects": {
-    "/Users/milantran/Desktop/avansTeam/avansTeam.csproj": {
+    "/Users/lucavanleeuwen/Desktop/avansTeam/avansTeam.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/milantran/Desktop/avansTeam/avansTeam.csproj",
+        "projectUniqueName": "/Users/lucavanleeuwen/Desktop/avansTeam/avansTeam.csproj",
         "projectName": "avansTeam",
-        "projectPath": "/Users/milantran/Desktop/avansTeam/avansTeam.csproj",
-        "packagesPath": "/Users/milantran/.nuget/packages/",
-        "outputPath": "/Users/milantran/Desktop/avansTeam/obj/",
+        "projectPath": "/Users/lucavanleeuwen/Desktop/avansTeam/avansTeam.csproj",
+        "packagesPath": "/Users/lucavanleeuwen/.nuget/packages/",
+        "outputPath": "/Users/lucavanleeuwen/Desktop/avansTeam/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/milantran/.nuget/NuGet/NuGet.Config"
+          "/Users/lucavanleeuwen/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -83,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
         }
       }
     }
