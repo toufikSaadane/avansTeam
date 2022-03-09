@@ -57,6 +57,19 @@ html {
     flex: unset;
 }
 
+.card .performances {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+    .card .performances .performance {
+        background: #f5f5f5;
+        border-radius: 3px;
+        font-size: 12px;
+        padding: 5px;
+    }
+
 @media (min-width: 768px) {
     html {
         font-size: 16px;

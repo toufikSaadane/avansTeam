@@ -17,7 +17,7 @@ namespace avansTeam.Controllers
             return View();
         }
 
-        // GET: PdfController/Create
+        // GET: PdfController/Create/ticket
         public ActionResult Create()
         {
             return View();
