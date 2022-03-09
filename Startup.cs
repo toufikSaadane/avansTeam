@@ -62,6 +62,7 @@ namespace avansTeam
 
             app.UseRouting();
 
+
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
@@ -69,6 +70,10 @@ namespace avansTeam
                 endpoints.MapControllerRoute(
             name: "default",
             pattern: "{controller=Movie}/{action=Index}/{id?}");
+            
+                endpoints.MapControllerRoute(
+            name: "checkout",
+            pattern: "{controller=CheckoutController}");
             });
         }
     }
