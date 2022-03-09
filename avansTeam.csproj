@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
     <PropertyGroup>
         <TargetFramework>net6.0</TargetFramework>
@@ -7,6 +7,13 @@
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
       <WarningLevel>4</WarningLevel>
     </PropertyGroup>
+
+    <ItemGroup>
+      <Compile Remove="Views\NewFolder\**" />
+      <Content Remove="Views\NewFolder\**" />
+      <EmbeddedResource Remove="Views\NewFolder\**" />
+      <None Remove="Views\NewFolder\**" />
+    </ItemGroup>
     <ItemGroup>
       <None Remove="Microsoft.EntityFrameworkCore" />
       <None Remove="Microsoft.EntityFrameworkCore.SqlServer" />
@@ -33,5 +40,6 @@
       <Folder Include="Data\" />
       <Folder Include="Views\Movie\" />
       <Folder Include="Views\Checkout\" />
+      <Folder Include="Views\NewFolder1\" />
     </ItemGroup>
 </Project>
