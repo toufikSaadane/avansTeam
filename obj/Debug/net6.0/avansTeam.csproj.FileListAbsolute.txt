@@ -814,3 +814,8 @@ D:\GitHub\avansTeam\obj\Debug\net6.0\avansTeam.dll
 D:\GitHub\avansTeam\obj\Debug\net6.0\ref\avansTeam.dll
 D:\GitHub\avansTeam\obj\Debug\net6.0\avansTeam.pdb
 D:\GitHub\avansTeam\obj\Debug\net6.0\avansTeam.genruntimeconfig.cache
+D:\GitHub\avansTeam\bin\Debug\net6.0\Aspose.PDF.dll
+D:\GitHub\avansTeam\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\GitHub\avansTeam\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\GitHub\avansTeam\bin\Debug\net6.0\System.Diagnostics.PerformanceCounter.dll
+D:\GitHub\avansTeam\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
