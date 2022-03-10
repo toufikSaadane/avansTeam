@@ -1,5 +1,6 @@
 {
   "ExpandedNodes": [
+<<<<<<< HEAD
     "",
     "\\Controllers",
     "\\Migrations",
@@ -11,5 +12,10 @@
     "\\wwwroot"
   ],
   "SelectedNode": "\\Views\\Movie\\Index.cshtml",
+=======
+    ""
+  ],
+  "SelectedNode": "\\avansTeam.sln",
+>>>>>>> origin/informationpage
   "PreviewInSolutionExplorer": false
 }

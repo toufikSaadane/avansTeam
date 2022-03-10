@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "/Users/milantran/Desktop/avansTeam/avansTeam.csproj": {}
   },
   "projects": {
@@ -15,11 +16,29 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/milantran/.nuget/NuGet/NuGet.Config"
+=======
+    "C:\\Users\\Anass\\Desktop\\Avans - Bioscoop\\avansTeam.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Anass\\Desktop\\Avans - Bioscoop\\avansTeam.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Anass\\Desktop\\Avans - Bioscoop\\avansTeam.csproj",
+        "projectName": "avansTeam",
+        "projectPath": "C:\\Users\\Anass\\Desktop\\Avans - Bioscoop\\avansTeam.csproj",
+        "packagesPath": "C:\\Users\\Anass\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Anass\\Desktop\\Avans - Bioscoop\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Anass\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+>>>>>>> origin/informationpage
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -87,7 +106,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+>>>>>>> origin/informationpage
         }
       }
     }
