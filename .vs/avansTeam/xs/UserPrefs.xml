@@ -1,28 +1,22 @@
-﻿<Properties StartupConfiguration="{9DDF2CAD-092E-4684-B15B-88E5F03B40DE}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Checkout/Index.cshtml">
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench ActiveDocument="avansTeam.csproj.user">
     <Files>
-      <File FileName="obj/avansTeam.csproj.nuget.g.props" Line="20" Column="5" />
-      <File FileName="Data/CinemaContext.cs" Line="4" Column="1" />
-      <File FileName="Views/Movie/Index.cshtml" Line="1" Column="1" />
-      <File FileName="Views/_ViewImports.cshtml" Line="1" Column="1" />
-      <File FileName="Program.cs" Line="1" Column="1" />
-      <File FileName="Startup.cs" Line="73" Column="13" />
-      <File FileName="Views/Checkout/Index.cshtml" Line="1" Column="1" />
+      <File FileName="Data/CinemaContext.cs" Line="1" Column="1" />
+      <File FileName="Views/Movie/Index.cshtml" />
+      <File FileName="Views/_ViewImports.cshtml" />
+      <File FileName="Program.cs" />
+      <File FileName="Views/Checkout/Index.cshtml" />
+      <File FileName="avansTeam.csproj" />
+      <File FileName="obj/avansTeam.csproj.nuget.dgspec.json" />
+      <File FileName="obj/avansTeam.csproj.nuget.g.props" />
+      <File FileName="Startup.cs" Line="1" Column="1" />
+      <File FileName="avansTeam.csproj.user" Line="11" Column="11" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="avansTeam" expanded="True">
-            <Node name="avansTeam" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Data" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Checkout" expanded="True">
-                  <Node name="Index.cshtml" selected="True" />
-                </Node>
-                <Node name="Movie" expanded="True" />
-              </Node>
-            </Node>
+            <Node name="avansTeam" selected="True" />
           </Node>
         </State>
       </Pad>
@@ -34,5 +28,4 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.avansTeam PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>
