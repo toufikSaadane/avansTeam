@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using avansTeam.Data;
 
@@ -10,9 +11,10 @@ using avansTeam.Data;
 namespace avansTeam.Migrations
 {
     [DbContext(typeof(CinemaContext))]
-    partial class CinemaContextModelSnapshot : ModelSnapshot
+    [Migration("20220310110150_AddPriceToMovie")]
+    partial class AddPriceToMovie
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -57,13 +59,7 @@ namespace avansTeam.Migrations
                     b.Property<string>("Name")
                         .HasColumnType("longtext");
 
-                    b.Property<double>("PriceAdult")
-                        .HasColumnType("double");
-
-                    b.Property<double>("PriceChild")
-                        .HasColumnType("double");
-
-                    b.Property<double>("PriceSenior")
+                    b.Property<double>("Price")
                         .HasColumnType("double");
 
                     b.HasKey("Id");
