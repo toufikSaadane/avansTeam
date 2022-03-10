@@ -1,43 +1,10 @@
-﻿<Properties StartupConfiguration="{9DDF2CAD-092E-4684-B15B-88E5F03B40DE}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Data/CinemaContext.cs">
-    <Files>
-      <File FileName="Models/Movie.cs" Line="15" Column="47" />
-      <File FileName="Models/Hall.cs" />
-      <File FileName="Data/CinemaContext.cs" Line="20" Column="48" />
-      <File FileName="appsettings.json" />
-      <File FileName="Startup.cs" />
-      <File FileName="Program.cs" />
-      <File FileName="Views/Movie/Index.cshtml" />
-      <File FileName="Views/Shared/_Layout.cshtml" />
-      <File FileName="wwwroot/css/site.css" />
-      <File FileName="Migrations/20220303141826_IntialCreate.cs" />
-      <File FileName="Models/Performance.cs" />
-      <File FileName="Controllers/MovieController.cs" />
-      <File FileName="Migrations/CinemaContextModelSnapshot.cs" />
-      <File FileName="Data/FakeData.cs" />
-    </Files>
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="avansTeam" expanded="True">
-            <Node name="avansTeam" expanded="True">
-              <Node name="Dependencies" expanded="True">
-                <Node name="PackageDependencies" expanded="True" />
-              </Node>
-              <Node name="Controllers" expanded="True" />
-              <Node name="Data" expanded="True">
-                <Node name="CinemaContext.cs" selected="True" />
-              </Node>
-              <Node name="Migrations" expanded="True" />
-              <Node name="Models" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Movie" expanded="True" />
-                <Node name="Shared" expanded="True" />
-              </Node>
-              <Node name="wwwroot" expanded="True">
-                <Node name="css" expanded="True" />
-              </Node>
-            </Node>
+            <Node name="avansTeam" selected="True" />
           </Node>
         </State>
       </Pad>
@@ -49,5 +16,4 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.avansTeam PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

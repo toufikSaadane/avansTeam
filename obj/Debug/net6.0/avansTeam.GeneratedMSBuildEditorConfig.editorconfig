@@ -8,33 +8,41 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = avansTeam
 build_property.RootNamespace = avansTeam
-build_property.ProjectDir = /Users/milantran/Desktop/avansTeam/
+build_property.ProjectDir = /Users/r.amatkario/Desktop/Avans Hogeschool Informatica B/C# and Agile Module/avansTeam/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/milantran/Desktop/avansTeam
+build_property.MSBuildProjectDirectory = /Users/r.amatkario/Desktop/Avans Hogeschool Informatica B/C# and Agile Module/avansTeam
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/milantran/Desktop/avansTeam/Views/Movie/Index.cshtml]
+[/Users/r.amatkario/Desktop/Avans Hogeschool Informatica B/C\# and Agile Module/avansTeam/Views/Checkout/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2hlY2tvdXQvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/r.amatkario/Desktop/Avans Hogeschool Informatica B/C\# and Agile Module/avansTeam/Views/Movie/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTW92aWUvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/milantran/Desktop/avansTeam/Views/Shared/Error.cshtml]
+[/Users/r.amatkario/Desktop/Avans Hogeschool Informatica B/C\# and Agile Module/avansTeam/Views/pdf/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvcGRmL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/r.amatkario/Desktop/Avans Hogeschool Informatica B/C\# and Agile Module/avansTeam/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/milantran/Desktop/avansTeam/Views/Shared/_Layout.cshtml]
+[/Users/r.amatkario/Desktop/Avans Hogeschool Informatica B/C\# and Agile Module/avansTeam/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/milantran/Desktop/avansTeam/Views/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/r.amatkario/Desktop/Avans Hogeschool Informatica B/C\# and Agile Module/avansTeam/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/milantran/Desktop/avansTeam/Views/_ViewImports.cshtml]
+[/Users/r.amatkario/Desktop/Avans Hogeschool Informatica B/C\# and Agile Module/avansTeam/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/milantran/Desktop/avansTeam/Views/_ViewStart.cshtml]
+[/Users/r.amatkario/Desktop/Avans Hogeschool Informatica B/C\# and Agile Module/avansTeam/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

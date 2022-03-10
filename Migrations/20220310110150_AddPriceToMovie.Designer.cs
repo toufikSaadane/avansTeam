@@ -11,8 +11,8 @@ using avansTeam.Data;
 namespace avansTeam.Migrations
 {
     [DbContext(typeof(CinemaContext))]
-    [Migration("20220303141826_IntialCreate")]
-    partial class IntialCreate
+    [Migration("20220310110150_AddPriceToMovie")]
+    partial class AddPriceToMovie
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -59,6 +59,9 @@ namespace avansTeam.Migrations
                     b.Property<string>("Name")
                         .HasColumnType("longtext");
 
+                    b.Property<double>("Price")
+                        .HasColumnType("double");
+
                     b.HasKey("Id");
 
                     b.ToTable("Movies");
@@ -97,7 +100,7 @@ namespace avansTeam.Migrations
                         .IsRequired();
 
                     b.HasOne("avansTeam.Models.Movie", "Movie")
-                        .WithMany("Perfomances")
+                        .WithMany("Performances")
                         .HasForeignKey("MovieId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -114,7 +117,7 @@ namespace avansTeam.Migrations
 
             modelBuilder.Entity("avansTeam.Models.Movie", b =>
                 {
-                    b.Navigation("Perfomances");
+                    b.Navigation("Performances");
                 });
 #pragma warning restore 612, 618
         }

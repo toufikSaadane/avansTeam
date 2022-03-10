@@ -6,15 +6,16 @@ using avansTeam.Data;
 using Microsoft.AspNetCore.Mvc;
 using avansTeam.Models;
 using Microsoft.EntityFrameworkCore;
-// For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+using Aspose.Pdf;
 
 namespace avansTeam.Controllers
 {
-    public class MovieController : Controller
+    public class PdfController : Controller
     {
+        // GET: /<PdfController>/<id>/
         private readonly CinemaContext _context;
 
-        public MovieController(CinemaContext context)
+        public PdfController(CinemaContext context)
         {
             _context = context;
         }
@@ -30,7 +31,23 @@ namespace avansTeam.Controllers
                                                 .ThenInclude(performance => performance.Hall)
                                                 .ToListAsync();
 
+            // Initialize document object
+            Document document = new Document();
+
+            // Add page
+            Page page = document.Pages.Add();
+
+            // Add text to new page
+            page.Paragraphs.Add(new Aspose.Pdf.Text.TextFragment("Bioscoopkaartje"));
+            page.Paragraphs.Add(new Aspose.Pdf.Text.TextFragment("Spider man"));
+            page.Paragraphs.Add(new Aspose.Pdf.Text.TextFragment("Far from Home"));
+            page.Paragraphs.Add(new Aspose.Pdf.Text.TextFragment("€12"));
+            // Save PDF 
+            document.Save("document.pdf");
+
             return View(movies);
         }
     }
+
 }
+
