@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/milantran/Desktop/avansTeam/avansTeam.csproj": {}
+    "C:\\dev\\school\\C#_project\\avansTeam\\avansTeam.csproj": {}
   },
   "projects": {
-    "/Users/milantran/Desktop/avansTeam/avansTeam.csproj": {
+    "C:\\dev\\school\\C#_project\\avansTeam\\avansTeam.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/milantran/Desktop/avansTeam/avansTeam.csproj",
+        "projectUniqueName": "C:\\dev\\school\\C#_project\\avansTeam\\avansTeam.csproj",
         "projectName": "avansTeam",
-        "projectPath": "/Users/milantran/Desktop/avansTeam/avansTeam.csproj",
-        "packagesPath": "/Users/milantran/.nuget/packages/",
-        "outputPath": "/Users/milantran/Desktop/avansTeam/obj/",
+        "projectPath": "C:\\dev\\school\\C#_project\\avansTeam\\avansTeam.csproj",
+        "packagesPath": "C:\\Users\\rohid\\.nuget\\packages\\",
+        "outputPath": "C:\\dev\\school\\C#_project\\avansTeam\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/milantran/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\rohid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -87,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
