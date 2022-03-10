@@ -1,18 +1,20 @@
 ﻿<Properties StartupConfiguration="{9DDF2CAD-092E-4684-B15B-88E5F03B40DE}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/MovieController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Data/CinemaContext.cs">
     <Files>
       <File FileName="Models/Movie.cs" Line="15" Column="47" />
       <File FileName="Models/Hall.cs" />
-      <File FileName="Data/CinemaContext.cs" />
+      <File FileName="Data/CinemaContext.cs" Line="20" Column="48" />
       <File FileName="appsettings.json" />
-      <File FileName="Startup.cs" Line="32" Column="46" />
+      <File FileName="Startup.cs" />
       <File FileName="Program.cs" />
       <File FileName="Views/Movie/Index.cshtml" />
       <File FileName="Views/Shared/_Layout.cshtml" />
       <File FileName="wwwroot/css/site.css" />
       <File FileName="Migrations/20220303141826_IntialCreate.cs" />
       <File FileName="Models/Performance.cs" />
-      <File FileName="Controllers/MovieController.cs" Line="1" Column="1" />
+      <File FileName="Controllers/MovieController.cs" />
+      <File FileName="Migrations/CinemaContextModelSnapshot.cs" />
+      <File FileName="Data/FakeData.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -22,10 +24,10 @@
               <Node name="Dependencies" expanded="True">
                 <Node name="PackageDependencies" expanded="True" />
               </Node>
-              <Node name="Controllers" expanded="True">
-                <Node name="MovieController.cs" selected="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True">
+                <Node name="CinemaContext.cs" selected="True" />
               </Node>
-              <Node name="Data" expanded="True" />
               <Node name="Migrations" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">

@@ -270,3 +270,8 @@
 /Users/milantran/Desktop/avansTeam/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
 /Users/milantran/Desktop/avansTeam/bin/Debug/net6.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
 /Users/milantran/Desktop/avansTeam/bin/Debug/net6.0/avansTeam
+/Users/milantran/Desktop/avansTeam/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/milantran/Desktop/avansTeam/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/milantran/Desktop/avansTeam/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/milantran/Desktop/avansTeam/bin/Debug/net6.0/Microsoft.Extensions.Identity.Core.dll
+/Users/milantran/Desktop/avansTeam/bin/Debug/net6.0/Microsoft.Extensions.Identity.Stores.dll
