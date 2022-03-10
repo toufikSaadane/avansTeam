@@ -7,20 +7,8 @@
     <div class="row">
         @foreach (var movie in Model)
         {
-<<<<<<< HEAD
-        <div class="col-12 col-md-4 col-lg-3">
-            <a asp-area="" asp-controller="Home" asp-action="Index" class="card">
-                <img class="card-img-top" src="@movie.Image" alt="@movie.Name" />
-                <div class="card-body">
-                    <p class="card-text">@movie.Name</p>
-                    <div class="performances">
-                        @foreach (var performance in movie.Performances)
-                        {
-                            <span class="performance">@performance.startTime.ToString("HH:mm"): @performance.Hall.Name</span>
-                        }
-=======
             <div class="col-12 col-md-4 col-lg-3">
-                <a asp-area="" asp-controller="Movie" asp-action="Show" asp-route-id="@movie.Id"  class="card">
+                <a asp-area="" asp-controller="Movie" asp-action="Show" asp-route-id="@movie.Id" class="card">
                     <img class="card-img-top" src="@movie.Image" alt="@movie.Name" />
                     <div class="card-body">
                         <p class="card-text">@movie.Name</p>
@@ -30,36 +18,34 @@
                                 <span class="performance">@performance.startTime.ToString("HH:mm"): @performance.Hall.Name</span>
                             }
                         </div>
->>>>>>> origin/informationpage
+                    </div>
+                </a>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Tarieven
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col"></th>
+                                    <th scope="col">Kind</th>
+                                    <th scope="col">Volwassen</th>
+                                    <th scope="col">Senior</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td><button type="button" class="btn btn-light w-100">€ @movie.PriceChild</button></td>
+                                    <td><button type="button" class="btn btn-light w-100">€ @movie.PriceAdult</button></td>
+                                    <td><button type="button" class="btn btn-light w-100">€ @movie.PriceSenior</button></td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
-            </a>
-            <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Tarieven
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th scope="col"></th>
-                                <th scope="col">Kind</th>
-                                <th scope="col">Volwassen</th>
-                                <th scope="col">Senior</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th scope="row"></th>
-                                <td><button type="button" class="btn btn-light w-100">€ @movie.PriceChild</button></td>
-                                <td><button type="button" class="btn btn-light w-100">€ @movie.PriceAdult</button></td>
-                                <td><button type="button" class="btn btn-light w-100">€ @movie.PriceSenior</button></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
             </div>
-        </div>
         }
     </div>
 

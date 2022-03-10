@@ -1,22 +1,30 @@
-﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="avansTeam.csproj.user">
+﻿<Properties StartupConfiguration="{9DDF2CAD-092E-4684-B15B-88E5F03B40DE}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Shared/_Layout.cshtml">
     <Files>
       <File FileName="Data/CinemaContext.cs" Line="1" Column="1" />
-      <File FileName="Views/Movie/Index.cshtml" />
+      <File FileName="Views/Movie/Index.cshtml" Line="36" Column="37" />
       <File FileName="Views/_ViewImports.cshtml" />
       <File FileName="Program.cs" />
       <File FileName="Views/Checkout/Index.cshtml" />
       <File FileName="avansTeam.csproj" />
-      <File FileName="obj/avansTeam.csproj.nuget.dgspec.json" />
-      <File FileName="obj/avansTeam.csproj.nuget.g.props" />
-      <File FileName="Startup.cs" Line="1" Column="1" />
-      <File FileName="avansTeam.csproj.user" Line="11" Column="11" />
+      <File FileName="Startup.cs" />
+      <File FileName="avansTeam.csproj.user" />
+      <File FileName="Properties/launchSettings.json" />
+      <File FileName="Views/Shared/_Layout.cshtml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="avansTeam" expanded="True">
-            <Node name="avansTeam" selected="True" />
+            <Node name="avansTeam" expanded="True">
+              <Node name="Properties" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Movie" expanded="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" selected="True" />
+                </Node>
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>
@@ -28,4 +36,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.avansTeam PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>
