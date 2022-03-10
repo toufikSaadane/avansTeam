@@ -1,11 +1,10 @@
 ﻿using System;
 using avansTeam.Models;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace avansTeam.Data
 {
-    public class CinemaContext : IdentityDbContext
+    public class CinemaContext : DbContext
     {
         public CinemaContext(DbContextOptions<CinemaContext> options) : base(options) { }
 

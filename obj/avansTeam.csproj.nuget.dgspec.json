@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/r.amatkario/Desktop/Avans Hogeschool Informatica B/C# and Agile Module/avansTeam/avansTeam.csproj": {}
+    "/Users/milantran/Desktop/avansTeam/avansTeam.csproj": {}
   },
   "projects": {
-    "/Users/r.amatkario/Desktop/Avans Hogeschool Informatica B/C# and Agile Module/avansTeam/avansTeam.csproj": {
+    "/Users/milantran/Desktop/avansTeam/avansTeam.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/r.amatkario/Desktop/Avans Hogeschool Informatica B/C# and Agile Module/avansTeam/avansTeam.csproj",
+        "projectUniqueName": "/Users/milantran/Desktop/avansTeam/avansTeam.csproj",
         "projectName": "avansTeam",
-        "projectPath": "/Users/r.amatkario/Desktop/Avans Hogeschool Informatica B/C# and Agile Module/avansTeam/avansTeam.csproj",
-        "packagesPath": "/Users/r.amatkario/.nuget/packages/",
-        "outputPath": "/Users/r.amatkario/Desktop/Avans Hogeschool Informatica B/C# and Agile Module/avansTeam/obj/",
+        "projectPath": "/Users/milantran/Desktop/avansTeam/avansTeam.csproj",
+        "packagesPath": "/Users/milantran/.nuget/packages/",
+        "outputPath": "/Users/milantran/Desktop/avansTeam/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-<<<<<<< HEAD
-          "/Users/milantran/.config/NuGet/NuGet.Config"
-=======
-          "/Users/r.amatkario/.nuget/NuGet/NuGet.Config"
->>>>>>> 6267bbfa3fcb55e7390194487ee5a91f344cba13
+          "/Users/milantran/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -50,23 +46,19 @@
               "target": "Package",
               "version": "[6.4.4, )"
             },
-            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[6.0.3, )"
-            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.3, )"
+              "version": "[6.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.3, )"
+              "version": "[6.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.3, )"
+              "version": "[6.0.2, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
@@ -95,11 +87,7 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.102/RuntimeIdentifierGraph.json"
-=======
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.200/RuntimeIdentifierGraph.json"
->>>>>>> 6267bbfa3fcb55e7390194487ee5a91f344cba13
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
         }
       }
     }

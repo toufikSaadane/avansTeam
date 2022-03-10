@@ -1,10 +1,19 @@
-﻿<Properties>
-  <MonoDevelop.Ide.Workbench>
+﻿<Properties StartupConfiguration="{9DDF2CAD-092E-4684-B15B-88E5F03B40DE}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Data/CinemaContext.cs">
+    <Files>
+      <File FileName="obj/avansTeam.csproj.nuget.g.props" Line="20" Column="5" />
+      <File FileName="Data/CinemaContext.cs" Line="4" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="avansTeam" expanded="True">
-            <Node name="avansTeam" selected="True" />
+            <Node name="avansTeam" expanded="True">
+              <Node name="Data" expanded="True">
+                <Node name="CinemaContext.cs" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
@@ -16,4 +25,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.avansTeam PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>
