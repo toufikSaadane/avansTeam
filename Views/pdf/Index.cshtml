@@ -5,15 +5,13 @@
 
 <div id="movies">
     <div class="row">
-        @foreach (var performance in Model)
+        @foreach (var movie in Model)
         {
             <div class="col-12 col-md-4 col-lg-3">
                 <a asp-area="" asp-controller="Home" asp-action="Index" class="card">
                     <div class="card-body">
-                        <p class="card-text">@performance.Movie.Name</p>
+                        <p class="card-text">@movie.Name</p>
                         <div class="performances">
-
-                                <span class="performance">@performance.startTime.ToString("HH:mm"): @performance.Hall.Name</span>
 
                         </div>
                     </div>
@@ -21,5 +19,9 @@
             </div>
         }
     </div>
-
 </div>
+<button type="button" onclick=openPdf()>Print kaartje</button>
+<script>
+    function openPdf() {   
+    }
+</script>
