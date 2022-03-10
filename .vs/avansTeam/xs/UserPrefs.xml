@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{9DDF2CAD-092E-4684-B15B-88E5F03B40DE}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Shared/_Layout.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Data/CinemaContext.cs">
     <Files>
       <File FileName="Data/CinemaContext.cs" Line="1" Column="1" />
-      <File FileName="Views/Movie/Index.cshtml" Line="36" Column="37" />
+      <File FileName="Views/Movie/Index.cshtml" />
       <File FileName="Views/_ViewImports.cshtml" />
       <File FileName="Program.cs" />
       <File FileName="Views/Checkout/Index.cshtml" />
@@ -10,19 +10,26 @@
       <File FileName="Startup.cs" />
       <File FileName="avansTeam.csproj.user" />
       <File FileName="Properties/launchSettings.json" />
-      <File FileName="Views/Shared/_Layout.cshtml" Line="1" Column="1" />
+      <File FileName="Views/Shared/_Layout.cshtml" />
+      <File FileName="Views/Movie/Show.cshtml" />
+      <File FileName="Models/Movie.cs" />
+      <File FileName="Migrations/20220310110150_AddPriceToMovie.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="avansTeam" expanded="True">
             <Node name="avansTeam" expanded="True">
+              <Node name="Data" expanded="True">
+                <Node name="CinemaContext.cs" selected="True" />
+              </Node>
+              <Node name="Migrations" expanded="True" />
+              <Node name="Models" expanded="True" />
               <Node name="Properties" expanded="True" />
               <Node name="Views" expanded="True">
+                <Node name="Checkout" expanded="True" />
                 <Node name="Movie" expanded="True" />
-                <Node name="Shared" expanded="True">
-                  <Node name="_Layout.cshtml" selected="True" />
-                </Node>
+                <Node name="Shared" expanded="True" />
               </Node>
             </Node>
           </Node>
