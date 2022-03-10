@@ -6,6 +6,7 @@
 
 ## Custom gitignore
 obj
+bin
 
 # User-specific files
 *.rsuser
