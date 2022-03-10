@@ -1,21 +1,34 @@
 ﻿<Properties StartupConfiguration="{9DDF2CAD-092E-4684-B15B-88E5F03B40DE}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Checkout/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/CartController.cs">
     <Files>
-      <File FileName="Views/Checkout/Index.cshtml" Line="1" Column="1" />
+      <File FileName="Views/Checkout/Index.cshtml" Line="13" Column="73" />
+      <File FileName="Views/Shared/_Layout.cshtml" Line="12" Column="57" />
+      <File FileName="Models/Car.cs" Line="4" Column="27" />
+      <File FileName="Models/Order.cs" Line="4" Column="1" />
+      <File FileName="Models/OrderDetail.cs" Line="1" Column="1" />
+      <File FileName="Models/Movie.cs" Line="13" Column="42" />
+      <File FileName="Models/Hall.cs" Line="1" Column="1" />
+      <File FileName="Models/Performance.cs" Line="1" Column="1" />
+      <File FileName="Models/ShoppingCart.cs" Line="20" Column="45" />
+      <File FileName="ViewModels/ShoppingCartViewModel.cs" Line="1" Column="1" />
+      <File FileName="ViewModels/ShoppingCartRemoveViewModel.cs" Line="11" Column="1" />
+      <File FileName="Controllers/ShoppingCartController.cs" Line="37" Column="24" />
+      <File FileName="Startup.cs" Line="65" Column="30" />
+      <File FileName="Models/Item.cs" Line="10" Column="2" />
+      <File FileName="Helpers/SessionHelper.cs" Line="19" Column="2" />
+      <File FileName="Controllers/MovieController.cs" Line="31" Column="27" />
+      <File FileName="Controllers/CartController.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="avansTeam" expanded="True">
             <Node name="avansTeam" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Migrations" expanded="True" />
-              <Node name="Models" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Checkout" expanded="True">
-                  <Node name="Index.cshtml" selected="True" />
-                </Node>
+              <Node name="Controllers" expanded="True">
+                <Node name="CartController.cs" selected="True" />
               </Node>
+              <Node name="Helpers" expanded="True" />
+              <Node name="Models" expanded="True" />
             </Node>
           </Node>
         </State>

@@ -17,6 +17,7 @@
       <None Remove="Views\Movie\" />
       <None Remove="EntityFramework" />
       <None Remove="Views\Checkout\" />
+      <None Remove="Helpers\" />
     </ItemGroup>
     <ItemGroup>
       <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.2" />
@@ -33,5 +34,6 @@
       <Folder Include="Data\" />
       <Folder Include="Views\Movie\" />
       <Folder Include="Views\Checkout\" />
+      <Folder Include="Helpers\" />
     </ItemGroup>
 </Project>
