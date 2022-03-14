@@ -1,36 +1,48 @@
 ﻿<Properties StartupConfiguration="{9DDF2CAD-092E-4684-B15B-88E5F03B40DE}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument=".gitignore">
+  <MonoDevelop.Ide.Workbench ActiveDocument="website/Startup.cs">
     <Files>
-      <File FileName="Data/CinemaContext.cs" Line="1" Column="1" />
-      <File FileName="Views/Movie/Index.cshtml" Line="20" Column="31" />
-      <File FileName="Views/_ViewImports.cshtml" />
-      <File FileName="Program.cs" />
-      <File FileName="Views/Checkout/Index.cshtml" />
-      <File FileName="avansTeam.csproj" />
-      <File FileName="Startup.cs" />
-      <File FileName="avansTeam.csproj.user" />
-      <File FileName="Properties/launchSettings.json" />
-      <File FileName="Views/Shared/_Layout.cshtml" />
-      <File FileName="Views/Movie/Show.cshtml" Line="64" Column="53" />
-      <File FileName="Models/Movie.cs" />
-      <File FileName="Migrations/20220310110150_AddPriceToMovie.cs" />
-      <File FileName=".gitignore" Line="9" Column="1" />
+      <File FileName="website/Views/Shared/_Layout.cshtml" Line="36" Column="36" />
+      <File FileName="website/Views/Home/Index.cshtml" Line="40" Column="11" />
+      <File FileName="website/Models/Movie.cs" Line="6" Column="5" />
+      <File FileName="Views/Movie/Index.cshtml" Line="7" Column="5" />
+      <File FileName="website/Controllers/HomeController.cs" Line="22" Column="30" />
+      <File FileName="Controllers/MovieController.cs" Line="24" Column="1" />
+      <File FileName="website/Data/CinemaContext.cs" Line="1" Column="1" />
+      <File FileName="Program.cs" Line="1" Column="1" />
+      <File FileName="Startup.cs" Line="28" Column="6" />
+      <File FileName="website/Startup.cs" Line="40" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="avansTeam" expanded="True">
             <Node name="avansTeam" expanded="True">
+              <Node name="Controllers" expanded="True" />
               <Node name="Data" expanded="True" />
               <Node name="Migrations" expanded="True" />
               <Node name="Models" expanded="True" />
-              <Node name="Properties" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Checkout" expanded="True" />
                 <Node name="Movie" expanded="True" />
                 <Node name="Shared" expanded="True" />
+                <Node name="Ticket" expanded="True" />
               </Node>
-              <Node name=".gitignore" selected="True" />
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="website" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+              </Node>
+              <Node name="Startup.cs" selected="True" />
             </Node>
           </Node>
         </State>
