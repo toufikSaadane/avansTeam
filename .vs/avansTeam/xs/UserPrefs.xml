@@ -1,16 +1,19 @@
 ﻿<Properties StartupConfiguration="{9DDF2CAD-092E-4684-B15B-88E5F03B40DE}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="website/Startup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="website/Views/Movie/Show.cshtml">
     <Files>
-      <File FileName="website/Views/Shared/_Layout.cshtml" Line="36" Column="36" />
-      <File FileName="website/Views/Home/Index.cshtml" Line="40" Column="11" />
+      <File FileName="website/Views/Shared/_Layout.cshtml" Line="12" Column="112" />
+      <File FileName="website/Views/Home/Index.cshtml" Line="4" Column="67" />
       <File FileName="website/Models/Movie.cs" Line="6" Column="5" />
-      <File FileName="Views/Movie/Index.cshtml" Line="7" Column="5" />
-      <File FileName="website/Controllers/HomeController.cs" Line="22" Column="30" />
+      <File FileName="Views/Movie/Index.cshtml" Line="10" Column="51" />
+      <File FileName="website/Controllers/HomeController.cs" Line="27" Column="52" />
       <File FileName="Controllers/MovieController.cs" Line="24" Column="1" />
       <File FileName="website/Data/CinemaContext.cs" Line="1" Column="1" />
       <File FileName="Program.cs" Line="1" Column="1" />
       <File FileName="Startup.cs" Line="28" Column="6" />
-      <File FileName="website/Startup.cs" Line="40" Column="10" />
+      <File FileName="website/Startup.cs" Line="25" Column="1" />
+      <File FileName="website/Views/Movie/Index.cshtml" Line="16" Column="55" />
+      <File FileName="website/Controllers/MovieController.cs" Line="7" Column="14" />
+      <File FileName="website/Views/Movie/Show.cshtml" Line="7" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -37,12 +40,12 @@
               <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Home" expanded="True" />
+                <Node name="Movie" expanded="True">
+                  <Node name="Show.cshtml" selected="True" />
+                </Node>
                 <Node name="Shared" expanded="True" />
               </Node>
-              <Node name="wwwroot" expanded="True">
-                <Node name="css" expanded="True" />
-              </Node>
-              <Node name="Startup.cs" selected="True" />
+              <Node name="wwwroot" expanded="True" />
             </Node>
           </Node>
         </State>
